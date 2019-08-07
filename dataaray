@@ -1,0 +1,12 @@
+<script>
+	const dataArr = ['Merah', 'jingga', 'kuning', 'hijau', 'biru', 'ungu']
+	dataArr.map((value,index) => console.log(index + ' . ' + value))
+
+	const arr1 = ['merah', 'jingga', 'kuning', 'hijau', 'biru', 'ungu'];
+	const data1 = arr1.sort()
+	console.log(data1);
+
+	const arr = ['merah', 'jingga', 'kuning', 'hijau', 'biru', 'ungu'];
+	const data = arr.slice(3,5);
+	console.log(data);
+</script>
